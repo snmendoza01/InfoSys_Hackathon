@@ -1,6 +1,3 @@
-Thought for a few seconds
-
-
 Rising above the left bank of the River Seine, the Eiffel Tower is both a product of late‑19th‑century engineering daring and a symbol of modern Paris.
 
 ### Conception and Construction (1886 – 1889)
