@@ -4,7 +4,7 @@ authors: Licong Xu and Boris Bolliet (Cambridge)
 
 # Getting started
 
-We recommend using Python 3.12. 
+We recommend using Python 3.12 or 3.13.
 
 ```bash
 git clone https://github.com/CMBAgents/MCPAgents.git
