@@ -14,4 +14,4 @@ source installer.sh
 jupyter-lab
 ```
 
-You can the run the notebook (make sure you select the mcp_env kernel in jupyterlab).
+You can the run the notebook (make sure you select the mcp_env kernel in jupyter lab).
