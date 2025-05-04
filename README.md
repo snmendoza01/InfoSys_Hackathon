@@ -1,6 +1,6 @@
 # Various agents and explorations with MCP and AG2
 
-authors: Licong Xu and Boris Bolliet (Cambridge)
+Authors: Licong Xu and Boris Bolliet (Cambridge)
 
 # Getting started
 
