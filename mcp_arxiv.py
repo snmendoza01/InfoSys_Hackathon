@@ -1,5 +1,3 @@
-# arxiv-mcp-server/src/arxiv_mcp_server/server.py
-
 import argparse
 from pathlib import Path
 from typing import List, Dict
