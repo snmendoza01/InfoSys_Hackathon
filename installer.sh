@@ -17,6 +17,9 @@ cd ..
 pip install ipykernel
 pip install arxiv
 pip install wikipedia
+pip install beaupy
+# pip install inspire
+pip install pyinspirehep
 pip install -U jupyterlab notebook ipywidgets
 python -m ipykernel install --user --name mcp_env --display-name "mcp_env"
 

@@ -1,7 +1,7 @@
 import argparse
 from pathlib import Path
 from typing import List, Dict
-import arxiv
+import inspire_tools
 import os
 from mcp.server.fastmcp import FastMCP
 
@@ -18,8 +18,7 @@ STORAGE_PATH.mkdir(parents=True, exist_ok=True)
 @mcp.tool()
 def search_arxiv(query: str, max_results: int = 3) -> List[str]:
     """Search arXiv and return IDs of top papers."""
-    results = arxiv.Search(query=query, max_results=max_results)
-    print([result.entry_id.split('/')[-1] for result in results.results()])
+    results = inspire_tools.get_records(query=query, sort="mostrecent", max_results=max_results)
     return [result.entry_id.split('/')[-1] for result in results.results()]
 
 @mcp.tool()
