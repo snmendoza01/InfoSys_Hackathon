@@ -124,5 +124,5 @@ if __name__ == '__main__':
     records = hep.search_inspirehep('Higgs boson', size=5)
     hep.download_pdfs(records)
     print("Downloaded files:", hep.list_downloaded())
-    info = hep.get_paper_info(records[0])
-    print("Sample paper info:", info)
+    ids = [ records[i].get('id') for i in range(len(records))]
+    print("Sample paper info:", ids)

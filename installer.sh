@@ -18,6 +18,8 @@ pip install ipykernel
 pip install arxiv
 pip install wikipedia
 pip install beaupy
+pip install PyPDF2
+pip install requests
 # pip install inspire
 pip install pyinspirehep
 pip install -U jupyterlab notebook ipywidgets

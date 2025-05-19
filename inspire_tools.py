@@ -27,7 +27,7 @@ config_defaults = {
 
 def get_records(query: str,
                 sort: str = 'mostrecent',
-                size: int = 1) -> tuple[list, int]:
+                size: int = 2) -> tuple[list, int]:
     if not query:
         return [], 0
     inspire_result = dict()
@@ -60,4 +60,7 @@ def download_pdf(record: dict, dest_file: str, exist_ok: bool = False) -> None:
         
 
 print(type(get_records("supergraph perturbation theory")[0][0]))
-print(get_records("supergraph perturbation theory")[0][0])
+print(get_records("supergraph perturbation theory")[0][0].keys())
+leng = len(get_records("supergraph perturbation theory")[0][0])
+print(leng)
+# print([get_records("supergraph perturbation theory")[0][0][i]['id'] for i in range(leng)])
